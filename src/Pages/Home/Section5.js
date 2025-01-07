@@ -16,7 +16,7 @@ import Brand8 from "../../assets/brands/brand-18.png";
 function Section5() {
   return (
     <>
-      <section className="shop_section">
+      <section id="shop" className="shop_section">
         <Container>
           <Row className="align-items-center">
             <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
@@ -26,14 +26,14 @@ function Section5() {
                 Aliquam a augue suscipit, luctus neque purus ipsum and neque
                 dolor primis libero tempus, blandit varius
               </p>
-              <Link to="/">
+              <Link to="home">
                 <img
                   src={StoreIOS}
                   alt="IOS"
                   className="img-fluid store me-3"
                 />
               </Link>
-              <Link to="/">
+              <Link to="home">
                 <img
                   src={StoreGoogle}
                   alt="Android"

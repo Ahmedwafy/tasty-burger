@@ -28,7 +28,7 @@ const mockData = [
 function Section2() {
   return (
     <>
-      <section className="about_section">
+      <section id="about" className="about_section">
         <Container>
           <Row>
             <Col lg={{ span: 8, offset: 2 }} className="text-center">
@@ -38,7 +38,7 @@ function Section2() {
                 auctor an tempus feugiat dolor lacinia cubilia curae integer
                 orci congue and metus integer primis in integer metus
               </p>
-              <Link to="/" className="btn order_now btn_red">
+              <Link to="home" className="btn order_now btn_red">
                 Explore Full Menu
               </Link>
             </Col>

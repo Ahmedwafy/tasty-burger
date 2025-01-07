@@ -17,7 +17,8 @@
   --oswald-font: "Oswald", sans-serif;
 
   /* Colors */
-  --light-black: #333;
+  --light-bltransition: all 0.3s ease-in-out;
+  k: #333;
   --light-white: #f7f7f7;
   --light-red: #e3000e;
   --light-grey: #f6f9fa;

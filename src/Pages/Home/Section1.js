@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Section1() {
   return (
-    <section className="hero_section">
+    <section id="home" className="hero_section">
       <Container>
         <Row>
           <Col lg={7} className="mb-5 mb-lg-0">

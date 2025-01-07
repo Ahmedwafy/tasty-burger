@@ -100,7 +100,7 @@ const renderRatingIcons = (rating) => {
 
 function Section3() {
   return (
-    <section className="menu_section">
+    <section id="menu" className="menu_section">
       <Container>
         <Row>
           <Col lg={{ span: 8, offset: 2 }} className="text-center mb-5">
@@ -130,7 +130,7 @@ function Section3() {
             <div className="ads_box ads_img1 mb-5 mb-md-0">
               <h4 className="mb-0">Get Your Free</h4>
               <h5>Cheese Fries</h5>
-              <Link to="/" className="btn btn_red px-4 rounded-0">
+              <Link to="home" className="btn btn_red px-4 rounded-0">
                 Learn More
               </Link>
             </div>
@@ -139,7 +139,7 @@ function Section3() {
             <div className="ads_box ads_img2">
               <h4 className="mb-0">Get Your Free</h4>
               <h5>Cheese Fries</h5>
-              <Link to="/" className="btn btn_red px-4 rounded-0">
+              <Link to="home" className="btn btn_red px-4 rounded-0">
                 Learn More
               </Link>
             </div>

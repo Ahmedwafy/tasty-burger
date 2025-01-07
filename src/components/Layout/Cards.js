@@ -26,7 +26,7 @@ function Cards({ image, rating, title, paragraph, price, renderRatingIcons }) {
               <h5 className="mb-0">${price}</h5>
             </div>
             <div className="add_to_card">
-              <Link to="/">
+              <Link to="home">
                 <i className="bi bi-bag me-2">Add To Cart</i>
               </Link>
             </div>

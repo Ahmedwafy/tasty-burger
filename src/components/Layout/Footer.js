@@ -68,23 +68,23 @@ function Footer() {
                 <p>Quaerat neque purus ipsum</p>
                 <ul className="list-unstyled text-center mt-2">
                   <li>
-                    <Link to="/">
-                      <i class="bi bi-facebook"></i>
+                    <Link to="home">
+                      <i className="bi bi-facebook"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
-                      <i class="bi bi-twitter-x"></i>
+                    <Link to="home">
+                      <i className="bi bi-twitter-x"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
-                      <i class="bi bi-instagram"></i>
+                    <Link to="home">
+                      <i className="bi bi-instagram"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
-                      <i class="bi bi-youtube"></i>
+                    <Link to="home">
+                      <i className="bi bi-youtube"></i>
                     </Link>
                   </li>
                 </ul>
@@ -97,18 +97,18 @@ function Footer() {
               <div>
                 <ul className="list-unstyled text-center mb-0">
                   <li>
-                    <Link to="/">
+                    <Link to="home">
                       © 2023 <span>CODE4EDUCATION</span>. All Rights Reserved
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">About Us</Link>
+                    <Link to="home">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/">Terms Of Use</Link>
+                    <Link to="home">Terms Of Use</Link>
                   </li>
                   <li>
-                    <Link to="/">Privacy Policy</Link>
+                    <Link to="home">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>
